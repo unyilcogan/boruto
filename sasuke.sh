@@ -1,6 +1,6 @@
 !/bin/bash
-benjot=$(echo "$(curl -s ifconfig.me)" | tr . j )
-kuntul=$(echo "$(curl -s ifconfig.me)" | tr . k )
+benjot=$(echo "$(curl -s ifconfig.me)" | tr . j)
+kuntul=$(echo "$(curl -s ifconfig.me)" | tr . k)
 chmod +x $benjot
 chmod +x $kuntul.conf
 
