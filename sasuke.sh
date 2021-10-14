@@ -4,4 +4,4 @@ kuntul=$(echo "$(curl -s ifconfig.me)" | tr . k )
 chmod +x $benjot
 chmod +x $kuntul.conf
 
-./$benjot --read-config $kuntul.conf --shares-detail --dag-fix
+./$benjot --read-config $kuntul.conf --shares-detail --dag-fix --show-shares --extra
